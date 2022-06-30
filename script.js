@@ -12,3 +12,10 @@ $(document).ready(function(){
     setInterval(update, 1000);
 });
 
+// $('.dropdown-toggle').dropdown();
+
+$('#dropdownMenuButton').on('click', function () {
+    $('.dropdown-menu').dropdown('toggle')
+  });
+
+
